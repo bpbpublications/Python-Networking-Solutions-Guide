@@ -1,0 +1,9 @@
+ip access-list extended {{acl_number}}
+
+{% for acl in access_lists %}
+
+{{acl["sequence"]}} {{acl["permission"]}} {{acl["protocol"]}} {{acl["source_ip"]}} {{acl["dest_ip"]}} {% if acl['eq'] %}eq{% endif %} {{acl["eq"]}} {% if acl['dscp'] %}dscp{% endif %} {{acl["dscp"]}}
+
+{% endfor %}
+
+do show access-lists {{acl_number}}

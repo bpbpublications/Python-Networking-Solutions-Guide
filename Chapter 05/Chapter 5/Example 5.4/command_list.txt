@@ -1,0 +1,4 @@
+interface GigabitEthernet0/1
+description Test
+no shutdown
+no cdp enable

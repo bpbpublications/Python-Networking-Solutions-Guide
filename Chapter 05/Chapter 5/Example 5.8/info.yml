@@ -1,0 +1,14 @@
+hostname: Router-1
+interfaces:
+  - name: GigabitEthernet0/1
+    description: Service_Interface
+    ip_address: 172.16.10.10
+    subnet_mask: 255.255.255.0
+  - name: GigabitEthernet0/2
+    description: MGMT_Interface
+    ip_address: 10.0.0.10
+    subnet_mask: 255.255.255.0
+  - name: GigabitEthernet0/3
+    description: Dowlink_Interface
+    ip_address:  1.1.1.1
+    subnet_mask: 255.255.255.0

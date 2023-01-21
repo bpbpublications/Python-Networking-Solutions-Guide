@@ -1,0 +1,19 @@
+# hosts.yaml
+---
+Router-1:
+   hostname: 10.10.10.1
+   platform: ios
+   username: admin
+   password: cisco
+
+Router-2:
+   hostname: 10.10.10.2
+   platform: ios
+   username: admin
+   password: cisco
+
+Router-3:
+   hostname: 10.10.10.3
+   platform: ios
+   username: admin
+   password: cisco

@@ -1,0 +1,45 @@
+acl_number: 100
+access_lists:
+  - sequence: 10
+    permission: deny
+    protocol: ip
+    source_ip: 10.11.2.0 0.0.255.255
+    dest_ip: 192.32.1.0 0.0.255.255
+
+  - sequence: 20
+    permission: deny
+    protocol: ip
+    source_ip: 15.12.2.0 0.0.255.255
+    dest_ip: 192.12.1.0 0.0.255.255
+
+  - sequence: 30
+    permission: permit
+    protocol: ip
+    source_ip: 120.1.2.0 0.0.255.255
+    dest_ip: 192.168.1.0 0.0.255.255
+
+  - sequence: 40
+    permission: permit
+    protocol: tcp
+    source_ip: 10.1.1.0 0.0.0.255
+    dest_ip: 172.16.1.0 0.0.0.255
+    eq: telnet
+
+  - sequence: 50
+    permission: permit
+    protocol: ip
+    source_ip: 140.1.2.0 0.0.255.255
+    dest_ip: 192.168.1.0 0.0.255.255
+
+  - sequence: 90
+    permission: deny
+    protocol: pim
+    source_ip: any
+    dest_ip: any
+    dscp: cs1
+
+  - sequence: 100
+    permission: deny
+    protocol: ip
+    source_ip: any
+    dest_ip: any

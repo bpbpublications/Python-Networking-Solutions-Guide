@@ -1,0 +1,11 @@
+{% for acl in access_list %}
+access-list {{ acl_no }} permit {{ acl["ip_address"] }} {{ acl["wild_card"] }}
+{% endfor %}
+
+{% for int in interfaces %}
+interface {{ int["name"] }}
+  description {{ int["description"] }}
+  ip address {{ int["ip_address"] }} {{ int["subnet_mask"] }}
+  {% if int['active'] %}no {% endif %}shutdown
+  {% if int['active'] %}ip access-group {{ acl_no }} in {% endif %}
+{% endfor %}

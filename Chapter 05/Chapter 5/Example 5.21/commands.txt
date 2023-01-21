@@ -1,0 +1,7 @@
+router ospf {{ ospf_process }} 
+{% for net in networks %}
+  network {{ net["ip_address"] }} {{ net["subnet_mask"] }} area {{ net["area_id"] }}
+{% endfor %}
+int loopback {{ loopback_int }}
+ip ospf cost {{ lo_cost }}
+ip ospf network {{ net_type }}

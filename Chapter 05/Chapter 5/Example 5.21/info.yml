@@ -1,0 +1,14 @@
+ospf_process: 1
+networks:
+  - ip_address: 10.10.10.0 
+    subnet_mask: 255.255.255.0
+    area_id: 0
+  - ip_address: 20.20.20.0 
+    subnet_mask: 255.255.255.0
+    area_id: 1
+  - ip_address: 30.30.30.0 
+    subnet_mask: 255.255.255.0
+    area_id: 0
+loopback_int: 0
+lo_cost: 100
+net_type: point-to-point

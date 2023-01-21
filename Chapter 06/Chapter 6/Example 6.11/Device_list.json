@@ -1,0 +1,29 @@
+{
+    "Router-1" : 
+    [
+        {   "host": "10.10.10.1",
+            "username": "admin",
+            "password": "cisco",
+            "device_type": "cisco_ios",
+            "global_delay_factor": 0.1
+        }
+    ],
+
+    "Router-2" : 
+    [
+        {   "host": "10.10.10.2",
+            "username": "admin",
+            "password": "cisco",
+            "device_type": "cisco_ios",
+            "global_delay_factor": 0.1
+        }
+    ],	    "Router-3" : 
+    [
+        {   "host": "10.10.10.3",
+            "username": "admin",
+            "password": "cisco",
+            "device_type": "cisco_ios",
+            "global_delay_factor": 0.1
+        }
+    ]
+}

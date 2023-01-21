@@ -1,0 +1,5 @@
+hostname {{hostname}}
+interface {{int_name}}
+  description {{description}}
+  ip address {{ip_address}} {{subnet_mask}}
+  no shutdown

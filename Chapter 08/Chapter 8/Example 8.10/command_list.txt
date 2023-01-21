@@ -1,0 +1,4 @@
+useradd {{user_name}}
+addgroup {{group_name}}
+usermod -a -G {{group_name}} {{user_name}}
+id {{user_name}}

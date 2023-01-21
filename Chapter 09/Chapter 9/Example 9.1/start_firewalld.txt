@@ -1,0 +1,4 @@
+apt-get install firewalld -y
+systemctl start firewalld
+systemctl status firewalld
+firewall-cmd --state

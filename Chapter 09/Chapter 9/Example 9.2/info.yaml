@@ -1,0 +1,3 @@
+new_zone: test
+interface: lo
+service: http

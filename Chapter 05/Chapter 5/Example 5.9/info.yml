@@ -1,0 +1,17 @@
+- hostname: R1
+  int_name: GigabitEthernet0/3
+  description: Test-1
+  ip_address: 10.1.1.1
+  subnet_mask: 255.255.255.0
+
+- hostname: R2
+  int_name: GigabitEthernet0/3
+  description: Test-2
+  ip_address: 10.1.1.2
+  subnet_mask: 255.255.255.0
+
+- hostname: R3
+  int_name: GigabitEthernet0/3
+  description: Test-3
+  ip_address: 10.1.1.3
+  subnet_mask: 255.255.255.0

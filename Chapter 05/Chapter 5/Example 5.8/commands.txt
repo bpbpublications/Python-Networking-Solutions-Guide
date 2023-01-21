@@ -1,0 +1,7 @@
+hostname {{hostname}}
+{% for int in interfaces %}
+interface {{ int["name"] }}
+  description {{ int["description"] }}
+  ip address {{ int["ip_address"] }} {{ int["subnet_mask"] }}
+  no shutdown
+{% endfor %}

@@ -1,0 +1,3 @@
+systemctl stop firewalld
+systemctl status firewalld
+firewall-cmd --state

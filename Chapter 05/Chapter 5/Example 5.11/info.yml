@@ -1,0 +1,18 @@
+acl_no: 1
+access_list:
+  - ip_address: 10.10.10.0
+    wild_card: 0.0.0.255
+    active: true
+  - ip_address: 20.20.20.0
+    wild_card: 0.0.0.255
+  - ip_address: 30.30.30.0
+    wild_card: 0.0.0.255
+interfaces:
+  - name: GigabitEthernet0/1
+    description: Service_Interface
+    ip_address: 172.16.10.10
+    subnet_mask: 255.255.255.0
+    active: true
+  - name: GigabitEthernet0/2
+    description: NOT_USED
+    active: false

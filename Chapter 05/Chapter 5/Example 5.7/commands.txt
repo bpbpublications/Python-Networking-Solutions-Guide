@@ -1,0 +1,6 @@
+hostname {{name}}
+
+interface GigabitEthernet0/1
+ description {{description}}
+ ip address {{ip_address}} {{subnet_mask}}
+ no shutdown

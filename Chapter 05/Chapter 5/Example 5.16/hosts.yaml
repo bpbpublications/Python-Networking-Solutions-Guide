@@ -1,0 +1,13 @@
+---
+Router-1:
+   hostname: 10.10.10.1
+   groups:
+        - ios
+Router-2:
+   hostname: 10.10.10.2
+   groups:
+        - ios
+Router-3:
+   hostname: 10.10.10.3
+   groups:
+        - ios

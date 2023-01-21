@@ -1,0 +1,3 @@
+firewall-cmd --new-zone={{new_zone}} --permanent
+firewall-cmd --reload
+firewall-cmd --get-zones

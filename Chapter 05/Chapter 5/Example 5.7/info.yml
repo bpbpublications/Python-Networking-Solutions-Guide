@@ -1,0 +1,4 @@
+name: Router-1
+description: Test_Interface
+ip_address: 192.168.10.10
+subnet_mask: 255.255.255.0

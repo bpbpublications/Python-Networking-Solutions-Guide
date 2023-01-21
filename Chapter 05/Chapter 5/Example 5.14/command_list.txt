@@ -1,0 +1,5 @@
+router bgp 100
+ bgp log-neighbor-changes
+ neighbor 10.10.10.2 remote-as 100
+ neighbor 10.10.10.2 description to_Router-2
+ neighbor 10.10.10.2 next-hop-self

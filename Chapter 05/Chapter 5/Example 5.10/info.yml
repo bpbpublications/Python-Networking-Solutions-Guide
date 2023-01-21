@@ -1,0 +1,46 @@
+- hostname: Router-1
+  interfaces:
+    - int_name: GigabitEthernet0/1
+      description: Service_Interface_1
+      ip_address: 172.16.10.10
+      subnet_mask: 255.255.255.0
+    - int_name: GigabitEthernet0/2
+      description: MGMT_Interface_1
+      ip_address: 10.0.0.10
+      subnet_mask: 255.255.255.0
+    - int_name: GigabitEthernet0/3
+      description: Dowlink_Interface_1
+      ip_address:  1.1.1.1
+      subnet_mask: 255.255.255.0
+
+
+- hostname: Router-2
+  interfaces:
+    - int_name: GigabitEthernet0/1
+      description: Service_Interface_2
+      ip_address: 172.16.10.20
+      subnet_mask: 255.255.255.0
+    - int_name: GigabitEthernet0/2
+      description: MGMT_Interface_2
+      ip_address: 10.0.0.20
+      subnet_mask: 255.255.255.0
+    - int_name: GigabitEthernet0/3
+      description: Dowlink_Interface_2
+      ip_address:  1.1.1.2
+      subnet_mask: 255.255.255.0
+
+
+- hostname: Router-3
+  interfaces:
+    - int_name: GigabitEthernet0/1
+      description: Service_Interface_3
+      ip_address: 172.16.10.30
+      subnet_mask: 255.255.255.0
+    - int_name: GigabitEthernet0/2
+      description: MGMT_Interface_3
+      ip_address: 10.0.0.30
+      subnet_mask: 255.255.255.0
+    - int_name: GigabitEthernet0/3
+      description: Dowlink_Interface_3
+      ip_address:  1.1.1.3
+      subnet_mask: 255.255.255.0
