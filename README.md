@@ -3,7 +3,7 @@
 Automate Your Network Configuration, Management, and Operation Tasks with Python
 
 This is the repository for [Python Networking Solutions Guide
-](https://in.bpbonline.com/products/python-networking-solutions-guide?variant=43968686096622),published by BPB Publications. 
+](https://bpbonline.com/products/python-networking-solutions-guide?_pos=1&_sid=10c180f11&_ss=r&variant=42529911603400),published by BPB Publications. 
 
 ## About the Book
 Python is the de-facto standard for automated network operations nowadays. With the power of Python, network devices can be automated easily with basic scripts. Written in direct and intuitive language, this practical guide will help you to automate your network with Python.
